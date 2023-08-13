@@ -3,7 +3,7 @@ import json
 import openpyxl
 from datetime import datetime
 from openpyxl.styles import Border, Side, Alignment
-from api_v2 import fetch_data, fetch_order_details
+from api import fetch_data, fetch_order_details
 
 # Функция для создания Excel файла с заголовками и данными
 def create_excel_file(filename, headers, data):

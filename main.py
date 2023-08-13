@@ -59,7 +59,7 @@ with open('config.json') as config_file:
 
 # Установка периода для запроса данных
 start_datetime_str = '2023-08-01'
-end_datetime_str = '2023-08-05'
+end_datetime_str = '2023-08-31'
 
 # Выполняем запрос к API для получения данных
 data = fetch_data(cloud, username, password, start_datetime_str, end_datetime_str)

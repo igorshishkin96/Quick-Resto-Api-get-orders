@@ -11,8 +11,8 @@ with open('config.json') as config_file:
 
 # Указываем URL для взаимодействия с API
 url = f'https://{cloud}.quickresto.ru/platform/online/api/list'
-start_datetime_str = '2023-07-01'
-end_datetime_str = '2023-07-31'
+start_datetime_str = '2023-08-01'
+end_datetime_str = '2023-08-31'
 
 # Заголовки для HTTP-запроса
 headers = {
